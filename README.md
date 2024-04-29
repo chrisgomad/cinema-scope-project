@@ -26,34 +26,35 @@ I will have completed the following courses/resources/tasks/artifacts as evidenc
 
 [//]: # (Complete this outline to show what you plan on covering each day - remember however, that this will likely change depending on your pprogress.  That is fine - just update it when you need to!)
 
-- Monday [4/29/24]: Choose and Explore Movie API
+- Monday [4/29/24]: Project prep and planning
+   - Create repository and add relevant contributors
+   - Outline project plan and tasks
+- Tuesday [4/30/24]: Choose and Explore Movie API
    - Research and finalize the movie API to use
    - Understand the API documentation
-- Tuesday [4/30/24]: Setup Development Environment & Register API Key
+- Wednesday [5/1/24]: Setup Development Environment & Register API Key
    - Setup Python environment and install necessary packages
    - Register for an API key
-- Wednesday [5/1/24]: Design & Start Development of Application
+- Thursday [5/2/24]: Design & Start Development of Application
    - Define endpoints and data models
    - Start coding the backend logic
-- Thursday [5/2/24]: Continue Development & Write Unit Tests
+- Friday [5/3/24]: Continue Development & Write Unit Tests
    - Continue with backend development
    - Start writing unit tests
-- Friday [5/3/24]: Database Integration & Front-End Development
+- Monday [5/6/24]: Database Integration & Front-End Development
      - Setup SQL database and write necessary scripts
      - Implement front-end designs
-- Monday [5/6/24]: Automated Testing & Documentation
+- Tuesday [5/7/24]: Automated Testing & Documentation
      - Write Selenium tests for automated testing
      - Start documentation of the project
-- Tuesday [5/7/24]: Deployment & Finalizing Documentation
+- Wednesday [5/8/24]: Deployment & Finalizing Documentation
       - Deploy your application using a hosting service
       - Finalize project documentation
-- Wednesday [5/8/24]: Further Automation tests & Presentation Prep
-      - Develop more automation scripts to make application robust.
-      - Prepare presentation outline
-- Thursday [5/9/24]: Presentation finalization
-      - Finalize presentation and submit for review.
+- Thursday [5/9/24]: Presentation prep and submission
+      - Outline presentation walkthrough
+      - Submit presentation for review.
 - Friday [5/10/24]: Presentation day!
-  
+
 --- 
 ## Daily Record:
 [//]: # (You’ll make one of these each day - just copy, paste, and edit the entry, keeping the most recent post at the top of this page. 
