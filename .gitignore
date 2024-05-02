@@ -1,1 +1,11 @@
-.idea/
+node_modules/
+.DS_Store
+.vscode
+.idea
+.env
+dist
+.cache
+.parcel-cache
+
+#sqlite
+*.sqlite
