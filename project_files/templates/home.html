@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CinemaScope</title>
+    </head>
+    <body>
+        <h1>Movie List</h1>
+        <ul>
+            {% for movie in movies %}
+                <li>
+                    <h2>{{ movie['Title'] }}</h2>
+                    <img src="{{ movie['Poster']}} alt="{{ movie['Title']}} poster" />
+                    <p>Year: {{movie['Year']}}</p>
+                    <p>Type: {{movie['Type']}}</p>
+                </li>
+                {% endfor %}
+        </ul>
+    </body>
+</html>
