@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import sqlite3
 import schedule
 import time
-
+import datetime
 
 def store_popularity_rank():
     options = Options()
@@ -25,10 +25,12 @@ def store_popularity_rank():
     driver.find_element(By.XPATH, "//div[contains(text(),'Dune: Part Two')]").click()
     popRank = driver.find_element(By.CSS_SELECTOR, "div[class='sc-3a4309f8-0 bjXIAP sc-b7c53eda-1 iIQkEw'] div[class='sc-5f7fb5b4-1 fTREEx']").text
     
+    now = datetime.datetime.now()
+    current_date = now.strftime("%Y-%m-%d %H:%M:%S")
     conn = sqlite3.connect('movie_database.db')
     c = conn.cursor()
-    c.execute("CREATE TABLE IF NOT EXISTS movies (id INTEGER PRIMARY KEY, name TEXT, popularity INTEGER)")
-    c.execute("INSERT INTO movies (name, popularity) VALUES (?,?)", ('Dune: Part Two', popRank))
+    c.execute("CREATE TABLE IF NOT EXISTS movies (id INTEGER PRIMARY KEY, name TEXT, popularity INTEGER, date TEXT)")
+    c.execute("INSERT INTO movies (name, popularity, date) VALUES (?,?,?)", ('Dune: Part Two', popRank, current_date))
 
     conn.commit()
     conn.close()
